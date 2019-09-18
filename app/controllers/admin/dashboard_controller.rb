@@ -3,5 +3,7 @@ class Admin::DashboardController < ApplicationController
   password: ENV['HTTP_BASIC_PASSWORD']
   
   def show
+    @products = Product.all.count
+    @categories = Category.all.count
   end
 end
