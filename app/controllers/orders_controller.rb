@@ -4,7 +4,7 @@ class OrdersController < ApplicationController
     @order = Order.find(params[:id])
     @line_items = @order.line_items
     @products = @line_items.map do |line_item| 
-      Product.find(line_item[:product_id])
+      {product: Product.find(line_item[:product_id]), quantity: line_item[:quantity]}
     end
   end
 
