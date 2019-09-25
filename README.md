@@ -5,13 +5,13 @@ A mini e-commerce application built with Rails 4.2 for purposes of learning Rail
 ## Final Product
 
 Product Page
-!["Product Page"](docs/Products.PNG)
+!["Product Page"](https://github.com/kvsuen/jungle-rails/raw/master/docs/Products.PNG)
 
 Cart Page
-!["Cart Page"](docs/Cart.PNG)
+!["Cart Page"](https://github.com/kvsuen/jungle-rails/raw/master/docs/Cart.PNG)
 
 Payment with Stripe
-!["Payment"](docs/Payment.PNG)
+!["Payment"](https://github.com/kvsuen/jungle-rails/raw/master/docs/Payment.PNG)
 
 ## Setup
 
